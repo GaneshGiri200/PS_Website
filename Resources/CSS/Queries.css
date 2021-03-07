@@ -1,0 +1,241 @@
+/*Big tablet to 1200px (widths smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px){
+    .logo, .footer-nav:first-child, .copyright p, .service-container1:first-child{
+        margin-left: 20px;
+    }
+    .main-nav:last-child, .social-icon:last-child, .copyright a, .home-info-text, .about-info-text{
+        margin-right: 20px;
+    }
+    .about-bestbox, .address{
+        max-width: 90%;
+    }
+
+    .service-box {
+        width: 92%;
+    }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px){
+    .logo, .footer-nav:first-child, .copyright p, .service-container1:first-child{
+        margin-left: 20px;
+    }
+
+    .num .abc {
+        font-size: 240%;
+    }
+    .main-nav:last-child, .social-icon:last-child, .copyright a, .home-info-text, .about-info-text{
+        margin-right: 20px;
+    }
+    .about-bestbox, .address{
+        max-width: 90%;
+    }
+    
+    .vision-box1, .vision-box2 {
+        width: 70%;
+        height: 280px;
+    }
+
+    .bestbox ul li div{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 960px){
+    .main-nav {
+        display: none;
+    }
+
+     .toggle {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+        float:right;
+        margin-right: 30px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 35px;
+        color: #fff;
+        margin-top: 17px;
+    }
+    
+    .contact-color {
+        color: #369;
+    }
+    .sticky .toggle {
+        color: #369;
+    }
+
+    .toggle:before {
+        content: '\f0c9';
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+
+    .toggle.active:before {
+        content:'\f00d';
+    }
+
+    .main-nav.active {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .main-nav.active li {
+        display: block;
+    }
+
+    .main-nav.active li a {
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+
+    .hero-text-box.active {
+        display: none;
+    }
+
+}
+
+/* Small phones to small tablet: from 481px to 767px */
+@media only screen and (max-width: 767px){
+    .num .abc {
+        font-size: 240%;
+    }
+
+    .toggle {
+        margin-right: 20px;
+    }
+
+    .logo-text {
+        font-size: 150%;
+        margin-top: 20px;
+    }
+
+    .sticky .logo-text {
+        font-size: 150%;
+        margin-top: 16px;
+    }
+
+    .count-box span{
+        font-size: 150%;
+    }
+    .footer-nav:first-child, .copyright p{
+        margin-left: 7px;
+    }
+    .social-icon:last-child, .copyright a{
+        margin-right: 7px;
+    }
+    .home-info-text h2 {
+        font-size: 150%;
+    }
+
+    .vision-box1, .vision-box2 {
+        width: 90%;
+        height: 280px;
+    }
+
+    .about-bestbox, .address{
+        max-width: 90%;
+    }
+    .bestbox ul li div{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    .logo-text {
+        font-size: 120%;
+        margin-top: 25px;
+    }
+
+    .sticky .logo-text {
+        font-size: 120%;
+        margin-top: 19px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .copyright a {
+        margin-top: 15px;
+    }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px){
+    
+    .home-info-text h2 {
+        font-size: 150%;
+    }
+
+    .logo-text {
+        display: none;
+    }
+
+    .toggle-text {
+        display: inline-block;
+        font-size: 100%;
+        margin-top: 15px;
+    }
+
+    .sticky .toggle-text {
+        display: inline-block;
+        font-size: 100%;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .vision-box1, .vision-box2 {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .vision-box1, .vision-box2 {
+        width: 80%;
+    }
+
+    .about-bestbox, .address{
+        max-width: 95%;
+    }
+
+    .aboutbest-img {
+        margin-top: 10px;
+    }
+    
+    label, textarea {
+        margin-left: 17px;
+    }
+
+    #email, #phone {
+        width: 50%;
+    }
+    
+    .service-box {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .bestbox ul li div{
+        width: 75%;
+    }
+
+    .disclaimer-text {
+        margin-top: 15px;
+    }
+
+    .disclaimer-text h4, .disclaimer-text p  {
+        margin-left: 15px;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    .social-icon {
+        margin-top: 20px;
+    }
+}
